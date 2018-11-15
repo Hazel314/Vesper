@@ -1,0 +1,275 @@
+body{
+	background: url(../img/bd-bg.png) repeat-x;
+}
+
+.clearfix:before,
+.clearfix:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.w{
+	width: 940px;
+	margin: 0 auto;
+}
+
+.header{
+	/*background-color: #bfa;*/
+	padding-top: 37px;
+	padding-bottom: 46px;
+}
+.logo{
+	/*margin-top: 37px;*/
+	padding-left: 15px;
+}
+
+.nav{
+	float: right;
+	margin-top: 22px;
+}
+
+.nav li{
+	float: left;
+	padding: 0 10px;
+	border-left: 1px #d6d6d6 dotted;
+	padding: 0 10px 8px;
+}
+
+.nav a{
+	font: bold 14px Georgia;
+	color: #666;
+	text-decoration: none;
+}
+
+/*设置鼠标移入效果*/
+.nav a:hover{
+	color: #b4b3b3;
+	text-decoration: underline;
+}
+
+.nav p{
+	font: 11px Tahoma;
+	color: #b7b7b7;
+}
+
+.banner{
+	background: url(../img/banner-bg.png) no-repeat bottom center;
+	height: 354px;
+	position: relative;
+}
+
+.pointerDiv{
+	position: absolute;
+	left: 15px;
+	bottom: 25px;
+}
+
+.pointerDiv a{
+	float: left;/*float转化为块级元素,且紧贴无空格*/
+	/*display: inline-block; inline-block行内元素间会自动增加空格*/
+	width: 17px;
+	height: 17px;
+	background: url(../img/pointer.png) no-repeat;
+	/*background-color: red;*/
+	margin-left: 4px;
+}
+
+.pointerDiv .active,
+.pointerDiv a:hover{
+	background: url(../img/pointer-active.png) no-repeat;
+}
+
+.content h1{
+	text-align: center;
+	font: bold 24px Georgia;
+	/*margin-top: 7px;父div没有设置边距，外边距会传递到父div*/
+	padding: 6px 0 20px 0;
+	background: url(../img/line.png) no-repeat bottom center;
+	margin-bottom: 38px;
+}
+
+.content{
+	/*background: #11719E;*/
+}
+
+.content .pl,.content .cs,.content .uc,
+.contact .sc,.contact .co,.contact .nu{
+	float: left;
+	width: 300px;
+	/*background-color: yellow;*/
+	/*margin: 0 5px 0 5px;*/
+}
+
+.content .cs,
+.contact .co{
+	margin: 0 20px;
+}
+
+.content h2{
+	color: #11719e;
+	font: 21px Georgia ;
+}
+
+.content .p1{
+	color: #8c8c8c;
+	font: 12px Tahoma;
+}
+
+.content .imgDiv{
+	width: 299px;
+	height: 190px;
+	background: url(../img/img-bg.png) no-repeat;
+	margin: 15px 0 10px;
+	text-align: center;
+	padding-top: 12px;
+}
+
+.content .p2{
+	color: #3e3e3e;
+	font: 13px Tahoma;
+	height: 90px;
+	word-spacing: 1px;
+}
+
+.content .lm{
+	display: block;
+	width: 163px;
+	height: 40px;
+	background: url(../img/btn.png) no-repeat;
+	text-decoration: none;
+	font: 12px/40px Tahoma;
+	color: #016999;
+	margin-bottom: 33px;
+	text-indent: 1em;
+}
+
+.contact{
+	/*background-color: #D3D3D3;*/
+	background: url(../img/line.png) no-repeat top center;
+}
+
+.contact .sc,.contact .co,.contact .nu{
+	/*height: 400px;*/
+	/*background-color: #bfa;*/
+}
+
+.contact h2{
+	color: #444;
+	font: 18px Georgia;
+	border-bottom: dashed #d3d3d3 1px;
+	padding: 35px 0px 10px;
+	margin-bottom: 15px;
+}
+
+.contact .txt{
+	width: 276px;
+	height: 33px;
+	background: url(../img/txt-bg.png) no-repeat;
+	border: none;
+	padding: 0px 10px 0px 10px;
+	margin: 0 0 17px;
+}
+
+.contact .tarea{
+	width: 276px;
+	height:114px;
+	background: url(../img/tarea-bg.png) no-repeat;
+	border: none;	
+	resize: none;
+	padding: 10px 10px 10px 10px;
+}
+
+.contact button{
+	width: 163px;
+	height: 32px;
+	background: url(../img/btn-bg.png);
+	border: none;
+	padding: 0px 0px 0px;
+	margin: 11px 0px 23px;
+	color: #fff;
+	font: 13px Georgia;
+	text-align: left;
+	text-indent: 1em;
+	cursor: pointer;
+}
+
+.contact p{
+	color: #444444;
+	font: 12px/1 Tahoma;
+}
+
+.contact .socialDiv{
+	width: 300px;
+	/*height: 100px;*/
+	/*background: #11719E;*/
+	padding: 7px 0px 40px ;
+}
+
+/*.contact .socialDiv li{
+	float: left;
+}*/
+
+.contact .sc h3{
+	color: #444444;
+	font: bold 18px/1 "Gill Sans MT";
+	border-bottom: dashed #d3d3d3 1px;
+	padding: 0px 0px 10px;
+	margin: 0 0 10px;
+}
+
+.sc .txt{
+	margin: 11px 0 2px;
+}
+
+.nu li{
+	height: 58px;
+	border-bottom: dashed #d3d3d3 1px;
+	/*padding: 14px 0px 9px;*/
+	padding-bottom: 9px;
+	margin-bottom: 16px;
+}
+
+.nu li img{
+	float: left;
+	width: 58px;
+	height: 58px;
+	/*background: url(../img/news/news-bg.png);*/
+	margin-right: 10px;
+}
+
+.nu .no-margin{
+	margin-bottom: 0px;
+}
+
+.footer{
+	height: 173px;
+	background: #333333;
+	border-top: 10px solid #4c4c4c;
+}
+
+.footer p,.footer a{
+	color: #999;
+	font:11px Tahoma;
+	text-decoration: none;
+}
+
+.footer .w{
+	margin-top: 16px;
+}
+
+.footer p{
+	/*padding-bottom: 11px;
+	padding-left: 9px;
+	padding-right: 32px;*/
+	padding: 0 32px 11px 9px;
+}
+
+.footer a:hover{
+	color: #dedede;
+	text-decoration: underline;
+}
+
+.footer .copy{
+	float: right;
+}
