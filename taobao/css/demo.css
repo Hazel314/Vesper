@@ -96,8 +96,30 @@ a{
 .search{
 	width: 630px;
 	height: 97px;
-	background: #3C3C3C;
+	/*background: #3C3C3C;*/
 	margin: 0px 302px 0px 258px;
+}
+
+.search li{
+	/*width: 630px;*/
+	display: inline-block;
+}
+
+.search-case{
+	width: 556px;
+	height: 40px;
+	background: #F5F5F5;
+}
+
+.search-key{
+	width: 590px;
+	line-height: 18px;
+}
+
+.search-key a{
+
+	font: 12px/2 "宋体";
+	color: #3c3c3c;
 }
 
 .qrcode{
@@ -141,7 +163,7 @@ a{
 	text-align: center;
 	color: #FFFFFF;
 	font-size: 16px;
-	font: inherit;
+	font: tahoma;
 	font-weight: 700;
 	float: left;
 }
@@ -167,23 +189,10 @@ a{
 	
 }
 
-.banner a{
-	display: block;
-	color: inherit;
-	font-weight: 700;
-	line-height: 30px;
-	margin: 0;
-	padding: 0 2px;
-}
-
 .banner .banner-fir li{
 	font: 16px tahoma;
 	margin: 0 3px;
 	padding: 0 4px;
-}
-
-.banner a{
-	padding: 0 5px;
 }
 
 .banner .banner-sec li,
@@ -194,7 +203,17 @@ a{
 	padding: 0px;
 }
 
-.pipe{
-	font: 14px/2;
+.banner a{
+	display: block;
+	color: inherit;
+	font-weight: 700;
 	line-height: 30px;
+	margin: 0;
+	padding: 0 5px;
+}
+
+.pipe{
+	font: 14px;
+	line-height: 30px;
+	/*text-align: center;*/
 }
