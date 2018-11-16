@@ -1,6 +1,4 @@
 body{
-	/*margin: 0;*/
-	height: 2000px;
 }
 
 a{
@@ -23,48 +21,93 @@ a{
 	background: #f5f5f5;     
 }
 
-.nav ul{
-	list-style: none;
-	/*margin: 0px;*/	
-}
-
-.nav a{
-	display: inline-block;
-	color: #3c3c3c;
-	font: 12px/1.5 tahoma;
-	line-height: 35px;
-	word-spacing: 2px;
-}
-
-.nav img{
-	/*display: block;*/
-	margin: auto 5px;
-}
-
 .nav-left{
 	float: left;
 	/*padding-left: 6px;*/
 }
 
-.nav-left li,.nav-right li{
-	padding: 0 6px;
-	float: left;
-}
-
-.nav .a-near{
-	margin-left: 8px;
+.nav-left .china{
+	display: inline-block;
+	color: #3c3c3c;
+	font: 12px/1.5 "宋体";
+	line-height: 35px;
+	word-spacing: 2px;
 }
 
 .nav-right{
 	float: right;
-	padding-right: 22px;
+	padding-right: 16px;
 }
 
-.nav li{
+.nav .nav-right .pipe{
 	display: inline-block;
-	/*line-height: 35px;*/
-	/*padding: 0px;
-	margin: 0px;*/
+	line-height: 35px;
+	font-size: 12px;
+	color: #ddd;
+	vertical-align: middle;
+}
+
+.nav .nav-menu{
+	display: inline-block;
+	padding: 0 6px;
+	float: left;
+}
+
+.nav .login-signin{
+	padding-right: 7px;
+	margin: 0 6px;
+}
+
+.nav .login-signin .login{
+	color: #f40;
+}
+
+.nav a{
+	display: inline-block;
+	color: #6c6c6c;
+	font: 12px/1.5 "宋体";
+	line-height: 35px;
+	word-spacing: 2px;
+}
+
+.nav a:hover{
+	color: #ff4400;
+}
+
+.nav span{
+	display: inline-block;
+	line-height: 35px;
+}
+
+.nav .pic-bg{
+	display: inline-block;
+	/*line-height: 30px;*/
+	vertical-align: middle;
+}
+
+.nav .pic-bg.down-pic{
+	background: url(../img/xsj.png) no-repeat;
+	width: 6px;
+	height: 3px;
+	margin-left: 7px;
+}
+
+.nav .pic-bg.shopcar-pic{
+	background: url(../img/gwc.png) no-repeat;
+	width: 13px;
+	height: 13px;
+}
+
+.nav .pic-bg.star-pic{
+	background: url(../img/star.png) no-repeat;
+	width: 12px;
+	height: 12px;
+}
+
+.nav .pic-bg.navi-pic{
+	background: url(../img/dh.png) no-repeat;
+	width: 7px;
+	height: 8px;
 }
 
 .top{
@@ -117,9 +160,12 @@ a{
 }
 
 .search-key a{
-
 	font: 12px/2 "宋体";
 	color: #3c3c3c;
+}
+
+.search .search-key a:hover{
+	color: #ff4400;
 }
 
 .qrcode{
@@ -213,7 +259,18 @@ a{
 }
 
 .pipe{
-	font: 14px;
+	/*font: 14px;*/
+	display: inline-block;
 	line-height: 30px;
-	/*text-align: center;*/
+	vertical-align: middle;
+}
+
+.main{
+	height: 900px;
+	background: #f5f5f5;     
+}
+
+.main .main-wrap{
+	height: 100%;
+	border: 1px solid;
 }
