@@ -1,3 +1,8 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
 body{
 }
 
@@ -79,7 +84,7 @@ a{
 	line-height: 35px;
 }
 
-.nav .pic-bg{
+.nav .pic-bg,.search .pic-bg{
 	display: inline-block;
 	/*line-height: 30px;*/
 	vertical-align: middle;
@@ -137,21 +142,92 @@ a{
 }
 
 .search{
-	width: 630px;
+	width: 640px;
 	height: 97px;
 	/*background: #3C3C3C;*/
 	margin: 0px 302px 0px 258px;
 }
 
-.search li{
-	/*width: 630px;*/
-	display: inline-block;
+.search ul{
+	margin-left: 17px;
 }
 
-.search-case{
+.search ul li{
+	width: 36px;
+	height: 22px;
+	color: #FF4400;
+	font-size: 12px;
+	text-align: center;
+	display: inline-block;
+	line-height: 22px;	
+	cursor: pointer;
+}
+
+.search ul .active{
+	color: #FFFFFF;
+	font-weight: 900;
+	background: #E75E29;
+	border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+}
+
+.search ul .normal:hover{
+	background: #f8e3da;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+} 	
+
+.search-case .search-case-txt{
 	width: 556px;
+	height: 36px;
+	/*background: #F5F5F5;*/
+	/*border: none;*/
+	border: 2px solid #e75e29;
+	/*border-bottom: 2px solid #e64c2b;*/
+	border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+	float: left;
+}
+
+.search-case-txt input{
+	width: 472px;
+	height: 24px;
+	border: none;
+	/*margin-left: 20px;*/
+	padding: 6px 0;
+	line-height: 24px;
+	background: none;
+	/*text-shadow: none;*/
+	text-indent: 10px;
+	outline: none;
+	
+}
+
+.search-case .pic-bg.cam-pic{
+	float: right;
+	/*display: inline-block;*/
+	/*line-height: 36px;*/
+	/*margin-right: 10px;*/
+	width: 23px;
+	height: 21px;
+	margin: 7px 15px 0 0;
+	background: url(../img/camera.png);
+	cursor: pointer;
+}
+
+.search-case button{
+	width: 74px;
 	height: 40px;
-	background: #F5F5F5;
+	font-size: 18px;
+	font-weight: 700;
+	color: #FFFFFF;
+	border: 2px solid #e75e29;
+	background: #e75e29;
+	border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+	outline: none;
+	cursor: pointer;
+	
 }
 
 .search-key{
