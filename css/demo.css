@@ -239,7 +239,6 @@ a,p{
     border-bottom-right-radius: 20px;
 	outline: none;
 	cursor: pointer;
-	
 }
 
 .search-key{
@@ -525,6 +524,17 @@ a,p{
 	background-color: #FFFFFF;
 }
 
+.main-headline .hl-wrap{
+	margin: 10px 14px 0px 5px;
+}
+
+.main-headline h3{
+	display: block;
+	width: 180px;
+	height: 73px;
+	background: url(../img/tbtt.png) no-repeat;
+}
+
 .main .main-right{
 	float: left;
 	width: 290px;
@@ -539,11 +549,11 @@ a,p{
 	background: url(../img/bg.png) no-repeat;
 	background-size: 100% 100%;
 	text-align: center;
+	/*margin-top: 2px;*/
 }
 
 .col-member .member-bd{
 	width: 290px;
-	margin: 5px auto;
 }
 
 .col-member .member-bd .mem-home{
@@ -553,6 +563,7 @@ a,p{
 	border: 1px solid #FFFFFF;
 	border-radius: 50px;
 	overflow: hidden;
+	margin-top: 5px;
 }
 
 .col-member .member-bd .mem-pic{
@@ -602,15 +613,56 @@ a,p{
 	background-position: 0 -528px;
 }
 
+.col-member .member-ft{
+	/*margin: 0 auto;*/
+	/*text-align: center;*/
+	padding-top: 8px;
+	padding-left: 15px;
+}
+
+.col-member .member-ft a{
+	width: 75px;
+	height: 25px;
+	display: block;
+	line-height: 25px;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: 700;
+	font-family: 宋体;
+	background-color: #FF5000;
+	float: left;
+	margin-right: 7px;
+	border-radius: 4px;
+}
+
+.col-member .member-ft .btn-login{
+	width: 95px;
+}
+
 .main-right .col-tip{
 	height: 26px;
-	background-color: #c6E8D1;
-	
+	background-color: #ffe4dd;
+	/*text-align: center;*/
+}
+
+.col-tip a{
+	color: #FF5000;
+	font-size: 12px;
+	font-family: 宋体;
+	line-height: 26px;
+	padding-left: 82px;
+}
+
+.col-tip .pic-bg.r-pic{
+	width: 8px;
+	height: 10px;
+	background: url(../img/ysj.png) no-repeat;
+	margin-left: 26px;
 }
 
 .main-right .col-notice{
 	height: 108px;
-	background-color: #FFE8D4;
+	background-color: #AFE8D4;
 	
 }
 
@@ -622,6 +674,31 @@ a,p{
 
 .main-right .col-app{
 	height: 111px;
-	background-color: #FFEdDA;
-	
+}
+
+.col-app h3{
+	font-size: 14px;
+	color: #3C3C3C;
+	/*font-family: 黑体;*/
+	font-weight: bold;
+	line-height: 30px;
+	padding-left: 14px;
+}
+
+.col-app .apps{
+	padding-left: 23px;
+	float: left;
+}
+
+.col-app .apps .app{
+	display: block;
+	width: 32px;
+	height: 32px;
+	margin: 0px 21px 8px 0;
+	float: left;
+}
+
+.col-app .app img{
+	width: 32px;
+	height: 32px;
 }
